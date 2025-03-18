@@ -1,8 +1,3 @@
-<?php
-require "router.php";
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,13 +19,9 @@ require "router.php";
 <body>
     <div>
         <h1>Welcome to the Intermediate Page</h1>
-        <p>Press Enter to go to the main page.</p>
-
-        <body>
-            <button onclick="window.location.href='/work'">Go to Main Page</button>
-        </body>
+        <p>Press the button to go to the main page.</p>
+        <button onclick="window.location.href='/work'">Go to Main Page</button>
     </div>
-
 </body>
 
 </html>
