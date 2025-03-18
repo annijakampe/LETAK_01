@@ -12,8 +12,6 @@ require "partials/nav.php";
         <!-- Izvada to kas atrodas db, šajā gadījuma notes un ir iespēja arū uzspiest uz dota notes-->
 
 
-
-
     </p>
 </div>
 
