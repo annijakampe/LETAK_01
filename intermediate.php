@@ -1,3 +1,8 @@
+<?php
+require "router.php";
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,17 +25,12 @@
     <div>
         <h1>Welcome to the Intermediate Page</h1>
         <p>Press Enter to go to the main page.</p>
-        <button onclick="window.location.href='work'">Go to Main Page</button>
 
-
+        <body>
+            <button onclick="window.location.href='/work'">Go to Main Page</button>
+        </body>
     </div>
-    <script>
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'Enter') {
-                window.location.href = 'index.php';
-            }
-        });
-    </script>
+
 </body>
 
 </html>

@@ -3,4 +3,4 @@
 
 $page = "work";
 
-require "views/index.view.php";
+require "views/work.view.php";
